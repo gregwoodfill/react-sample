@@ -1,2 +1,5 @@
 // index.js
-document.write('Hello World!')
+hello = (world) => {
+    return 'hello ' + world
+}
+document.write(hello("universe"))
